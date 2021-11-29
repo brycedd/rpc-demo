@@ -5,9 +5,9 @@ package com.dd.simulate.framework;
  */
 public class URL {
     private String ip;
-    private String port;
+    private int port;
 
-    public URL(String ip, String port) {
+    public URL(String ip, int port) {
         this.ip = ip;
         this.port = port;
     }
@@ -20,11 +20,11 @@ public class URL {
         this.ip = ip;
     }
 
-    public String getPort() {
+    public int getPort() {
         return port;
     }
 
-    public void setPort(String port) {
+    public void setPort(int port) {
         this.port = port;
     }
 }
