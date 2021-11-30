@@ -37,6 +37,9 @@ public class HttpServer {
         host.addChild(context);
         engine.addChild(host);
 
+        service.setContainer(engine);
+        service.addConnector(connector);
+
         tomcat.addServlet(contextPath, "dispatcher", new DispatcherServlet());
         context.addServletMappingDecoded("/","dispatcher");
 
