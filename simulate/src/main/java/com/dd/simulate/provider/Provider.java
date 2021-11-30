@@ -3,7 +3,7 @@ package com.dd.simulate.provider;
 import com.dd.simulate.framework.Protocol;
 import com.dd.simulate.framework.ProtocolFactory;
 import com.dd.simulate.framework.URL;
-import com.dd.simulate.provider.api.DemoService;
+import com.dd.simulate.api.DemoService;
 import com.dd.simulate.provider.impl.DemoServiceImpl;
 import com.dd.simulate.register.RemoteMapRegister;
 

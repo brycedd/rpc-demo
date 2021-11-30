@@ -1,4 +1,4 @@
-package com.dd.simulate.provider.api;
+package com.dd.simulate.api;
 
 /**
  * @author Bryce_dd 2021/11/28 23:42

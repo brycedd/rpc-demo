@@ -1,6 +1,6 @@
 package com.dd.simulate.provider.impl;
 
-import com.dd.simulate.provider.api.DemoService;
+import com.dd.simulate.api.DemoService;
 
 /**
  * @author Bryce_dd 2021/11/28 23:43

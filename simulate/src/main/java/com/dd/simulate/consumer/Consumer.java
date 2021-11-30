@@ -1,7 +1,7 @@
 package com.dd.simulate.consumer;
 
 import com.dd.simulate.framework.ProxyFactory;
-import com.dd.simulate.provider.api.DemoService;
+import com.dd.simulate.api.DemoService;
 
 /**
  * @author Bryce_dd 2021/11/29 23:53
